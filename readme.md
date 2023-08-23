@@ -18,9 +18,9 @@ print("Your encrypted username: " + str(cipher.encrypt(username.encode("UTF-8"))
 print("Your encrypted password: " + str(cipher.encrypt(password.encode("UTF-8"))))
 ```
 
-   1. Copy the encryption key to a file at `Functions/encryptionKey.txt`.
-   2. Copy the encrypted username to the default username definition within the Device class object in `Functions/inventory.py`.
-   3. Copy the encrypted password to the default username definition within the Device class object in `Functions/inventory.py`.
+- Copy the encryption key to a file at `Functions/encryptionKey.txt`.
+- Copy the encrypted username to the default username definition within the Device class object in `Functions/inventory.py`.
+- Copy the encrypted password to the default username definition within the Device class object in `Functions/inventory.py`.
 
 2. Update your Netbox URL and API key in `patching.py`.
 3. Update your Netbox filter definitions in `Functions/inventory.py` on lines 26-49. These are unique to each instance of Netbox as the IDs vary.
